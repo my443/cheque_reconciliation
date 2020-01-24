@@ -1,6 +1,10 @@
 ## Purpose of this script is to take a chequelist generated from the accounting software,
 ##    and compare it to the list of cheques that has been cashed (reported on the bank statement.)
 
+## Change the working directory to the path where this script is.
+## Change the setwd path.
+setwd("~/path/that/this/script/is/on")
+
 ## Load the reader Library
 ##  You will have to install teh readr library if it isn't already installed.
 library(readr)
